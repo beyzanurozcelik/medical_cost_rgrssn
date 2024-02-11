@@ -1,2 +1,3 @@
 # medical_cost_rgrssn
-Applying linear regression, knn, decision tere, random forest, gbm and lgbm models on medical cost dataset.
+In this project, models are predicting a person's medical charge. For this I had medical cost data, first I looked into data and understand it as much as I can. Then I looked if there is any missing values.  Then I checked outlier and took care of them. And I analysed features deeply. After this insgiht I did some feature engineering. Then I applied scaling and one hot encoding on features. I used linear regress
+on, k nearest neighbor,random forest, gradientboost and lgbm models for this project. I run the models, made predictions and picked best performers. Then I used Grid Search to hyperparameter optimization and found best parameters. Run models again and compared them respect to evaluation metrics. And finally I combined models with voting regressor.
